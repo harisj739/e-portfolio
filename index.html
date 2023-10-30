@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+      This is the head section. 
+      It includes optional information about the web page (author, date, etc)
+      It must include the charater set and the title
+    -->
+  <head>
+    <!-- The following is the recommended character set: UTF-8. This is because of its comprehensiveness as it includes different                    languages from around the world. -->
+    <meta charset="utf-8"> 
+      
+    <!-- The title is the label of the tab (not on the page itself). -->
+    <title>Lab 1: Personal Portfolio</title>
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@200;300;400;500;900&display=swap" rel="stylesheet">
+    <!-- Styles specific sections or elements on the webpage. -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+      
+  </head>
+  
+  <!-- Everything that will be displayed on the page is in the body. -->
+  <body>
+    <!-- Markup the text as the main heading (HTML is a markup language). -->
+    <!-- Semantic text like header explains the type of text for a specific section. -->
+    <header>
+      <!-- As you go up the header numbers, the smaller the text gets (from h1 to h6). -->
+      <h1>Haris Jilani</h1>
+    </header>
+    <!-- Horizontal rule: The horizontal rule to separate sections. -->
+    <hr>
+
+    <br>
+    
+       <!-- Includes all the navigation. -->
+    <nav>  
+      <a id="home" href="index.html">Home</a> 
+      <a href="about.html">About Haris</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+      
+    <br><br>
+    <!-- This is the main content: -->
+    <main>
+      <!-- Where the image will go -->
+      <figure>
+        <!-- Filenames for images are case-sensitive, must be exact. -->
+        <!-- Src is an attribute; attributes are additional information that some of the HTML tags need. -->
+        <img src="img/ggb.jpeg" alt="Golden Gate Bridge">
+      </figure>
+
+      <div id="intro">
+        <p> Hi, I'm Haris! </p>
+        <p> I'm an aspiring software engineer who aims to develop mobile and/or web applications that can help change the world. As someone whose passionate about helping others around the world, the gift of technology provides a method to connect those who are in need with the rest of the world.</p> 
+        <p> I desire to use this gift to provide aid to those who need it, and to be an ally with those with the same purpose.</p>
+
+        <br><br>
+
+        <em>"You miss <strong>100%</strong> of the shots you <strong>don't </strong> take."</em> <br>
+        - Wayne Gretzky
+      </div>
+    </main>
+    
+    <hr>
+    
+    <footer>
+      <figure>
+        <img src="img/otters.jpeg" alt="CSUMB logo">
+      </figure>
+        
+      <div> CST336 Internet Programming. 2023&copy; Jilani <br>
+        <!-- Generates a copyright symbol with the text. -->
+        <strong>Disclaimer:</strong> The information in this website may not be entirely accurate. <br> It is used for academic purposes only.        </div>
+        
+    </footer>
+        
+  </body>
+  
+</html>

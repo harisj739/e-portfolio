@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+    This is the head section. 
+    It includes optional information about the web page (author, date, etc)
+    It must include the charater set and the title
+  -->
+  <head>
+    <!-- The following is the recommended character set: UTF-8. This is because of its comprehensiveness as it includes different                    languages from around the world. -->
+    <meta charset="utf-8"> 
+    
+    <!-- The title is the label of the tab (not on the page itself). -->
+    <title>Lab 1: Personal Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@200;300;400;500;900&display=swap" rel="stylesheet">
+    <!-- Styles specific sections or elements on the webpage. -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  
+  <!-- Everything that will be displayed on the page is in the body. -->
+  <body>
+    <!-- Markup the text as the main heading (HTML is a markup language). -->
+    <!-- Semantic text like header explains the type of text for a specific section. -->
+    <header>
+      <h1>Haris Jilani</h1>
+    </header>
+    <!-- As you go up the header numbers, the smaller the text gets (from h1 to h6). -->
+    <!-- Horizontal rule: The horizontal rule to separate sections. -->
+    <hr>
+
+    <br>
+    
+    <!-- Includes all the navigation. -->
+    <nav>  
+      <a href="index.html">Home</a> 
+      <a id="about" href="about.html">About Haris</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <br><br>
+
+    <div id="content">
+      <table>
+        <tr id="table-header">
+          <td><strong>Programming Language</strong></td> 
+          <td><strong>Years Experience</strong></td>
+        </tr>
+        
+        <tr class="table-row">
+          <td>C++</td> 
+          <td>2</td>
+        </tr>  
+        
+        <tr class="table-row">
+          <td>Java</td> 
+          <td>1.5</td>
+        </tr> 
+        
+        <tr class="table-row">
+          <td>Python</td> 
+          <td>1</td>
+        </tr>
+        
+      </table>
+    </div>
+
+    <br>
+
+    <ul>
+      <li> <span class = "hobby"> Software Engineering: </span> I've always wanted to develop applications and operating systems since I was a kid. Since high school, I've consistently programmed/coded in a variety of languages, including Python, Java, HTML, and C++. </li>
+      
+      <li> <span class = "hobby"> Basketball: </span> Since a kid I've always watched and played basketball. I tried out for the high school basketball team and continued to play on my own with friends outside of school. </li>
+      
+      <li> <span class = "hobby"> Economics: </span> I've taken 2 economics classes in college and would've taken a third class if there was one.</li>
+      
+      <li> <span class = "hobby"> Weather: </span> I've always been interested in following the weather, whether that be local weather forecasts or weather radars.</li>
+      
+    </ul>
+    
+    <br>
+    
+    <div class="dropdown">
+      <a id="haris" href="#"><strong>Want to contact Haris? Hover over this text for ways to do just that!</strong></a>
+      
+        <div class="dropdown-content">
+          <a id="gmail" href="https://mail.google.com">Email</a>
+          
+          <a id="github" href="https://github.com/harisj739">Github</a>
+          
+          <a id="linkedin" href="https://www.linkedin.com/in/haris-jilani-964093261/">LinkedIn</a>
+        </div>
+      
+    </div>
+    
+    <hr>
+
+    <footer>
+      
+      <figure>
+        <img src="img/otters.jpeg" alt="CSUMB logo">
+      </figure>
+      
+      <div> CST336 Internet Programming. 2023&copy; Jilani <br>
+      <!-- Generates a copyright symbol with the text. -->
+      <strong>Disclaimer:</strong> The information in this website is fictitious. <br> It is used for academic purposes only.</div>
+    </footer>
+
+  </body>
+  
+</html>
