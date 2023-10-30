@@ -3,6 +3,12 @@ This portfolio contains all the files and their brief descriptions that I used t
 
 ## HTML Files
 
+### 1. index.html
+
+### 2. about.html
+
+### 3. contact.html
+
 ## CSS Files
 
 ## Node.js Files
