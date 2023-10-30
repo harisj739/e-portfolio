@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+main img {
+  width: 400px;
+  animation: backwards;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+}
+header {
+  background-color: blue;
+}  
+body {
+  background-color: black;
+  color: white;
+}
+
+header, main, nav, footer {
+  text-align: center;
+}
+
+footer {
+  font-size: 10px;
+  color: whitesmoke;
+}
+footer img {
+  width: 50px;
+  align-self: center;
+}
+
+/* Only applies to links within the nav container.  */
+nav a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;
+}
+
+/* This use the pseudo class hover to apply properties while the link is being hovered.  Applies to ANY HTML element.*/
+nav a:hover {
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+main, footer {
+  font-family: 'Roberto Condensed', san-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#home, #about, #contact {
+  border-width: 2px;
+  border-style:solid;
+  border-color: #fff;
+}
+
+#intro {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+table {
+  margin: 0px auto;
+}
+
+td {
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+
+td strong {
+  color: orange;
+}
+
+#table-header {
+  background-color: #351a00;
+}
+
+.table-row {
+  background-color: #753900;
+}
+
+ul {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hobby {
+  color: yellow;
+}
+
+div {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#haris {
+  color: #cad5de;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+/* Hides the dropdown content.  */
+.dropdown-content a {
+  display:none;
+  font-size: 16px;
+  border-color: #fff;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+}
+
+/* Makes the dropdown menu show up only when you hover. */
+.dropdown:hover .dropdown-content a {
+  display: block;
+}
+
+#github {
+  background-color: #c08e34;
+}
+#gmail {
+  background-color: #e50606;
+}
+#linkedin {
+  background-color: #004cff;
+}
